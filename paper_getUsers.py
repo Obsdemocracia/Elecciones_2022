@@ -1,7 +1,7 @@
 import tweepy
 import os
 import time
-import sqlDB
+import paper_sqlDB
 import pickle
 
 client = tweepy.Client(os.environ.get('TWITTER_API'))
